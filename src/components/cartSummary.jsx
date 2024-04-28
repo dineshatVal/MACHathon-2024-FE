@@ -41,11 +41,11 @@ const CartSummary = ({ totalPrice }) => {
               <ul className={style.summary_list}>
                 <li id='item-sub' className={style.summary_item}>
                   <div>Item Subtotal</div>
-                  <span>${subTotal}</span>
+                  <span>INR {subTotal}</span>
                 </li>
                 <li id='service-fee' className={style.summary_item}>
                   <div>Service Fee</div>
-                  <span>$3.00</span>
+                  <span>INR 3.00</span>
                 </li>
                 <li id='subtotal' className={style.summary_item}>
                   <div className={style.bold_text}>Subtotal</div>
