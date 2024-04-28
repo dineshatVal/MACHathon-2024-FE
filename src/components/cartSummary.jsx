@@ -49,13 +49,13 @@ const CartSummary = ({ totalPrice }) => {
                 </li>
                 <li id='subtotal' className={style.summary_item}>
                   <div className={style.bold_text}>Subtotal</div>
-                  <span className={style.bold_text}>${subTotal + 3.00}</span>
+                  <span className={style.bold_text}>INR{subTotal + 3.00}</span>
                 </li>
               </ul>
             </div>
             <br />
             <button className={`${style.action_btn} ${style.primary_action}`} type='submit' onClick={() => invokeToast()}>
-              Place Order <span className={style.bold_text}> ${subTotal + 3.00}</span>
+              Place Order <span className={style.bold_text}> INR{subTotal + 3.00}</span>
             </button>
             <p>
               <small>By placing your order, you agree to be bound by the Freshcart
