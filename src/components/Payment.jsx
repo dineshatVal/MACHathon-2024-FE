@@ -23,7 +23,7 @@ const Payment = () => {
         e.preventDefault();
         console.log(shippingAddress)
         console.log(anonymousId)
-        axios.post('https://greenleap.ap-south-1.elasticbeanstalk.com/shippingAddress/addAddress', shippingAddress, {
+        axios.post('https://mach.punetrekkers.com/shippingAddress/addAddress', shippingAddress, {
         params: {
             anonymousId: anonymousId
         }
